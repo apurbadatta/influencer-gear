@@ -30,12 +30,15 @@ body{
     display: flex;
     list-style: none;
     gap: 34px;
-    cursor: pointer;
+    
     color: #3A3A3A;
     font-size: 1rem;
     font-weight: 600px;
-
 }
+.nav-item li{
+    cursor: pointer;
+}
+
 .logo{
     color: #3A3A3A;
     font-size: 1.5rem;
