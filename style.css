@@ -167,3 +167,36 @@ body {
   font-size: 14px;
   font-weight: 700px;
 }
+
+/* media  */
+@media screen and (max-width:576px) {
+.nav-ber{
+  display: flex;
+  flex-wrap:wrap;
+  width: 573px;
+}
+
+
+
+  .header-box{
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+
+  }
+  .sponsor{
+    grid-template-columns: repeat(4, 1fr);
+    /* width: 80%; */
+    
+  }
+  .all-card{grid-template-columns: repeat(1, 1fr);
+  /* width: 80%; */
+}
+
+.product{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+}
